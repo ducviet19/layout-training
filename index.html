@@ -1,0 +1,366 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a> </li>
+                        <li class="product"><a href="">Products</a>
+                            <div class="dropdown-content">
+                                <a href="#">Men</a>
+                                <a href="#">Woman</a>
+                                <a href="#">Kids</a>
+                            </div>
+                        </li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+
+                    </ul>
+
+                    <div id="site-overlay"></div>
+                </nav>
+                <img class="cart" src="./images/cart.png" width="30px" height="30px">
+                <img class="menu-icon" src="./images/menu.png" alt="" onclick="menuToggle()">
+
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>
+                        Giver Your Workout <br> A new style
+                    </h1>
+                    <p>This is your best style that you want . We alway give you a comfortable. </p>
+                    <a class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="./images/nike-just-do-it.jpeg" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/category-1.jpg"  >
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-2.jpg"  >
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-3.jpg"  >
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-1.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-2.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-3.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-4.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+        </div>
+        <h2 class="title">Lasted Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-1.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-2.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-3.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product-4.jpg" alt="">
+                <h4>Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+
+                </div>
+                <p>$5.000</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Excuasd asasd asdasd</p>
+                    <h1>Smart Brand 4</h1>
+                    <small> The free website templates that are showcased here are open source, creative commons or
+                        totally free. These free CSS HTML templates can be freely ... </small>
+                    <a href="" class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reprehenderit reiciendis quis
+                        aspernatur asperiores quos aliquid repudiandae optio exercitationem, minus repellendus minima
+                        eius, quasi blanditiis quaerat totam, nesciunt vel omnis!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="./images/user-1.png">
+                    <h3>Jeans heavy</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reprehenderit reiciendis quis
+                        aspernatur asperiores quos aliquid repudiandae optio exercitationem, minus repellendus minima
+                        eius, quasi blanditiis quaerat totam, nesciunt vel omnis!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="./images/user-2.png">
+                    <h3>Jeans heavy</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reprehenderit reiciendis quis
+                        aspernatur asperiores quos aliquid repudiandae optio exercitationem, minus repellendus minima
+                        eius, quasi blanditiis quaerat totam, nesciunt vel omnis!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="./images/user-3.png">
+                    <h3>Jeans heavy</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./images/logo-godrej.png"></img>
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-oppo.png"></img>
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-coca-cola.png"></img>
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-paypal.png"></img>
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-philips.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Down load our App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./images/logo-white.png" alt="">
+
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Email</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Email</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy">Coppyright 2021</p>
+        </div>
+
+    </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        var bl = document.getElementById("site-overlay");
+
+        MenuItems.style.maxHeight = "0px";
+        function menuToggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "100%";
+                // bl.style.display = "block"
+                // bl.style.width = "100vh"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
