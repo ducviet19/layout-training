@@ -272,6 +272,25 @@ nav ul li:hover {
 
 
 /* dropdown */
+.account-content {
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation: fadeIn ease-in 0.5s;
+}
+
+.account-content a {
+    text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
 
 .dropdown-content {
     margin-top: 10px;
@@ -303,6 +322,21 @@ nav ul li:hover {
     height: 15px;
 }
 
+
+
+
+
+
+.account:hover .account-content {
+    display: block;
+}
+.account::before {
+    position: absolute;
+    top: 20px;
+    content: "";
+    width: 20%;
+    height: 15px;
+}
 
 
 
